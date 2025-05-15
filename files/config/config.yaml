@@ -1,0 +1,17 @@
+app:
+  port: 8082
+
+database:
+  host: localhost
+  user: admin
+  password: password
+  name: order
+  port: 5432
+
+redis:
+  host: 127.0.0.1
+  port: 6379
+  password:
+
+secret:
+  jwtsecret: "verysecret"
